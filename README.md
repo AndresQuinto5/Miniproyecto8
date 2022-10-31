@@ -6,3 +6,9 @@ Fitness Score se define como la longitud del camino descrito por el gen. Cuanto 
 
 El más apto de todos los genes del acervo genético sobrevive a la prueba de población y pasa a la siguiente iteración. El número de iteraciones depende del valor de una variable de enfriamiento. El valor de la variable de enfriamiento continúa disminuyendo con cada iteración y alcanza un umbral después de un cierto número de iteraciones.
 
+## Done with
+
+
+```bash
+Python 3.7.0
+```
