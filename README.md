@@ -12,3 +12,15 @@ El más apto de todos los genes del acervo genético sobrevive a la prueba de po
 ```bash
 Python 3.7.0
 ```
+
+## Algorithm: 
+
+```python
+1. Initialize the population randomly.
+2. Determine the fitness of the chromosome.
+3. Until done repeat:
+    1. Select parents.
+    2. Perform crossover and mutation.
+    3. Calculate the fitness of the new population.
+    4. Append it to the gene pool.
+```
