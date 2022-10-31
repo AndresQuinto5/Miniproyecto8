@@ -60,3 +60,19 @@ def repeat(s, ch):
 	return False
 
 
+# Function to return a mutated GNOME
+# Mutated GNOME is a string
+# with a random interchange
+# of two genes to create variation in species
+def mutatedGene(gnome):
+	gnome = list(gnome)
+	while True:
+		r = rand_num(1, V)
+		r1 = rand_num(1, V)
+		if r1 != r:
+			temp = gnome[r]
+			gnome[r] = gnome[r1]
+			gnome[r1] = temp
+			break
+	return ''.join(gnome)
+
