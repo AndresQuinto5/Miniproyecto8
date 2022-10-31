@@ -31,11 +31,11 @@ Python 3.7.0
 ## How the mutation works?
 Supongamos que hay 5 ciudades: 0, 1, 2, 3, 4. El vendedor está en la ciudad 0 y tiene que encontrar la ruta más corta para viajar a través de todas las ciudades de regreso a la ciudad 0. Un cromosoma que representa la ruta elegida puede ser representado como: 
 
-Imagen 1 xD
+![paint1](https://user-images.githubusercontent.com/42017522/198929567-eba5b945-03d0-47c8-8fc9-a30b092f3d60.jpg)
 
 Este cromosoma sufre una mutación. Durante la mutación, la posición de dos ciudades en el cromosoma se intercambia para formar una nueva configuración, excepto la primera y la última celda, ya que representan el punto inicial y final.
 
-Imagen 2 xD
+![paint2](https://user-images.githubusercontent.com/42017522/198929580-04bd1ff3-7ce6-469e-a1f8-b9af3e559716.jpg)
 
 El cromosoma original tenía una longitud de ruta igual a INT_MAX, según la entrada definida a continuación, ya que la ruta entre la ciudad 1 y la ciudad 4 no existía. Después de la mutación, el nuevo niño formado tiene una longitud de camino igual a 21, que es una respuesta mucho más optimizada que la suposición original. Así es como el algoritmo genético optimiza las soluciones a problemas difíciles.
 
